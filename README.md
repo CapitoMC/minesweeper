@@ -1,31 +1,18 @@
-# React + TypeScript + Vite
+# Minesweeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![screenshot](https://github.com/YeiserBytes/minesweeper/assets/97372908/9245c5bd-7e89-4db0-af8c-44331a88f8be)
 
-Currently, two official plugins are available:
+**¡Revive la nostalgia de los 90 con este Minesweeper construido con React, TypeScript y Tailwind!**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este juego te lleva de vuelta a la época de Windows 95 con su estética retro y su fiel del clásico juego Buscaminas. Pon a prueba tu ingenio y tu capacidad de deducción mientras navegas por un campo minado, revelando casillas y esquivando las bombas escondidas.
 
-## Expanding the ESLint configuration
+## Cómo jugar:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Haz clic en una casilla para revelarla.
+- Si la casilla está vacía, se revelarán los números que la rodean, indicando cuántas bombas hay adyacentes.
+- Usa los números para deducir la ubicación de las bombas y evitarlas.
+- Si haces clic en una casilla con una bomba, ¡perderás la partida!
 
-- Configure the top-level `parserOptions` property like this:
+### Nota:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# minesweeper
+Este juego se encuentra en desarrollo. Se añadirán nuevas características y mejoras en el futuro.
